@@ -1,4 +1,5 @@
-### Hi there 👋, my name is Davidne
+### Hi there, my name is David and this is my website!
+!
 #### This is my first website, hope it isnt absolute shit
 ![This is my first website, hope it isnt absolute shit](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
 
