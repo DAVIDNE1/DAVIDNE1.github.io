@@ -1,1 +1,2 @@
-# DAVIDNE1.github.io
+** Welcome to my website **
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
