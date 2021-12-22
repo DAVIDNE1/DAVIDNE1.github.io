@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *
-{
+:root{
+  --overlay-color: #03a8f4;
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -56,6 +59,7 @@ header .logo
   background: #111;
   transition: 0.5s;
   z-index: 2;
+  transition: 1.2s;
 }
 .showcase.active
 {
@@ -79,7 +83,7 @@ header .logo
   left: 0;
   width: 100%;
   height: 100%;
-  background: #03a9f4;
+  background: #69bee6;
   mix-blend-mode: overlay;
 }
 .text
@@ -147,7 +151,7 @@ header .logo
 {
   display: inline-block;
   margin-right: 20px;
-  filter: invert(1);
+  filter: invert(2);
   transform: scale(0.5);
   transition: 0.5s;
 }
@@ -182,7 +186,7 @@ header .logo
 }
 .menu ul li a:hover
 {
-  color: #AEF359; 
+  color: var(--overlay-color); 
 }
 
 @media (max-width: 991px)
