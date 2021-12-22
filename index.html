@@ -13,7 +13,7 @@
             <div class="toggle"></div>
         </header>
 
-         <video src="https://www.dropbox.com/s/ghp2nmdwbi3v4pg/Render.mp4?dl=1" muted loop autoplay></video> 
+         <video src="Render.mp4" muted loop autoplay></video> 
 
         <div class="overlay"></div>
 
@@ -25,18 +25,29 @@
         </div>
 
         <ul class="social">
-        <li><img src="youtube.png" alt="https://www.youtube.com/channel/UCr0JG2s5o9WL-T95Xhr5vSw"></li>
-        <li><img src="discord_black_logo_icon_147145.png" alt="DAVIDNE#4371"></li>
-        <li><img src="instagram.png" alt="https://www.instagram.com/davidne_yt/"></li>
+        <li><a href="#"><img src="youtube.png" alt="https://www.youtube.com/channel/UCr0JG2s5o9WL-T95Xhr5vSw" /></a></li>
+        <li><a href="#"><img src="discord_black_logo_icon_147145.png" alt="" /></a></li>
+        <li><a href="#"><img src="instagram.png" alt="https://www.instagram.com/davidne_yt/" /></a></li>
          </ul>
     </section>
+
     <div class="menu">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Socials</a></li>
-            <li><a href="#">Youtube</a></li>
-            <li><a href="#">Test</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
   </body>
 </html>
